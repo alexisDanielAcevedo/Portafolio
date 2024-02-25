@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>Acevedo Alexis | Frontend</title>
+    <link rel="icon"  href="./imgsP/ICON.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/c58785cb0f.js" crossorigin="anonymous"></script>
+    <script src="./js/scrollNav.js"></script>
+</head>
+<body>
+
+    <header class="hero" id="hero">
+        <nav class="nav container" id="nav">
+            <h2 class="nav_logo">A/A/<span>.DEV</span></h2>
+
+            <ul class="nav_links">
+                <li class="nav_item primero"><a href="#" class="nav_link"> < Inicio /> </a></li>
+                <li class="nav_item segundo"><a href="#projects" class="nav_link"> <  Proyectos /></a></li>
+                <li class="nav_item cuarto"><b><a href="#contact" class="nav_link"> < Contacto /></a></b></li>
+            </ul>
+
+            <a href="#nav" class="nav_hamburguesa">
+                <i class='bx bx-menu-alt-right nav_icon'></i>
+            </a>
+
+            <a href="#" class="nav_close">
+                <i class='bx bx-x nav_icon_close'></i>
+            </a>
+
+        </nav>
+    </header>
+    
+    <section class="section1" id="section1">
+            <h1 id="cards">Hola, soy Alexis<span>.</span></h1>  
+            <h3 id="cards">Frontend Developer</h3>
+            <img src="./imgsP/imgPrincipal.svg" alt="">
+    </section>
+
+    <section class="section2" id="projects">
+            <div class="projects">
+                <h2> Proyectos </h2>
+            </div>
+        <div class="card__container">
+            <img src="./imgsP/pokedex.png" alt="">
+            <div class="content">
+                <h3>Pokedéx</h3>
+                <p>
+                    Sitio web de Pokédex. Muestra los pokemons según el nombre o número filtrado</p>
+                <div class="content__icons">
+                <i class='bx bxl-html5'></i>
+                <i class='bx bxl-css3'></i>
+                <i class='bx bxl-javascript'></i>
+                </div>
+                <div class="demo">
+                    <a target="_blank" href="https://github.com/alexisDanielAcevedo/Pokedex"><i class='bx bxl-github'></i></a>
+                    <a class="a__demo" target="_blank" href="https://pokedex-alexisacevedo.netlify.app/">Demo</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card__container">
+            <img src="./imgsP/products.png" alt="">
+            <div class="content">
+                <h3>Productos-carrito</h3>
+                <p>
+                    Sitio web de productos. Agregar al carrito, agregar/restar productos y mostrar el total</p>
+                <div class="content__icons">
+                <i class='bx bxl-html5'></i>
+                <i class='bx bxl-css3'></i>
+                <i class='bx bxl-javascript'></i>
+                </div>
+                <div class="demo">
+                    <a target="_blank" href="https://github.com/alexisDanielAcevedo/Productos-carrito"><i class='bx bxl-github'></i></a>
+                    <a class="a__demo" target="_blank" href="https://productos-alexisacevedo.netlify.app/">Demo</a>
+                </div>
+            </div>
+        </div>
+
+         <div class="card__container">
+            <img src="./imgsP/appClima.png" alt="">
+            <div class="content">
+                <h3>app/clima</h3>
+                <p>Web del clima, geolocalización y buscador por país, provincia o cuidad
+                </p>
+                <div class="content__icons">
+                <i class='bx bxl-html5'></i>
+                <i class='bx bxl-css3'></i>
+                <i class='bx bxl-javascript'></i>
+                </div>
+                <div class="demo">
+                    <a target="_blank" href="https://github.com/alexisDanielAcevedo/appClima"><i class='bx bxl-github'></i></a>
+                    <a class="a__demo" target="_blank" href="https://appclima-alexisacevedo.netlify.app/">Demo</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="section3">
+        <form action="https://formsubmit.co/a4b89618e8288f1e16feeb6b8236d7f7" method="POST" class="form__content">
+            <h2 id="contact">Contacto</h2>
+
+            <div class="form__inputs">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Juan..." required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Juan123@gmail.com" required >
+
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="5" required></textarea>
+
+                <input class="btn" type="submit" value="Enviar">
+
+
+
+                <input type="hidden" name="_next" value="https://portafolio-alexisacevedo.netlify.app/">
+                <input type="hidden" name="_captcha" value="false" >
+
+            </div>
+        </form>
+    </section>
+
+
+    <footer class="footer">
+        <div class="contenedorDeColores">
+            <div class="color"></div>
+            <div class="color1"></div>
+            <div class="color2"></div>
+            <div class="color3"></div>
+        </div>
+        
+        <div class="derechos">
+            © 2023 Creado por - Alexis Acevedo.
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+ </body>
+</html>

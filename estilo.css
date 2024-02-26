@@ -18,7 +18,7 @@ body{
      background-size: cover;
      background-repeat: no-repeat;
      height: 100vh; */
-     background-color: var(--color-primary);
+     background-color: #dfdfdf;
      /* padding-top: 100px; */
      
      
@@ -170,7 +170,7 @@ body{
 /* =======================NAV================= */
 .section1{
  
-  height: 100vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -180,7 +180,7 @@ body{
   background-color: var(--color-primary);
   justify-items: center;
 
-  background: url(./imgsP/wave1.svg);
+  background: url(./imgs/wave1.svg);
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -219,30 +219,30 @@ body{
 
 /* ================================= */
 
-
-
-.section2{
-    display: flex;
-    
-
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 30px 20px 30px 20px;
-    gap: 50px;
-    
-    scroll-margin-top: 25ex ;
-
-}
-
 .projects{
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    width: 350px;
-    height: 120px;
-    /* border: solid 2px #000; */
 }
+.projects h2{
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: fit-content;
+    border-bottom: #000 solid 2px;
+}
+
+.section2{
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 20px 30px 20px;
+    gap: 20px;
+    scroll-margin-top: 25ex ;
+}
+
+
 .section2 h2{
     font-size: 32px;
     border-bottom: solid 2px #000;
@@ -250,14 +250,18 @@ body{
     text-align: center;
 }
 .card__container{
-    height: 100vh;
+    
     width: 350px;
     height: 420px;
-    border-radius: 7px;
+    border-radius: 5px;
     overflow: hidden;
-    border: #000000 solid 5px;
+
     position: relative;
    
+}
+.card__container:hover{
+    transition: 0.1s ease-in-out;
+    border: #e45353 solid 4px;
 }
 .card__container img{
     width: 100%;
@@ -271,10 +275,10 @@ body{
     top: 0;
     right: -100%;
     position: absolute;
-    background-color:var(--color-second);
-    /* backdrop-filter:  blur(5px); */
+    background-color:rgba(0, 0, 0, 0.836);
+    backdrop-filter:  blur(15px); 
     color: var(--color-primary);
-    padding: 10px;
+    padding: 0px 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -299,19 +303,19 @@ body{
 .bxl-html5{
     color: orangered;
     border: orangered 2px solid;
-    background-color: #000000;
+    background-color: transparent;
     border-radius: 2px;
 }
 .bxl-css3{
     color: skyblue;
     border: skyblue 2px solid;
-    background-color: #000000;
+    background-color: transparent;
     border-radius: 2px;
 }
 .bxl-javascript{
     color: yellow;
     border: yellow 2px solid;
-    background-color: #000000;
+    background-color: transparent;
     border-radius: 2px;
 }
 .demo{
@@ -355,7 +359,9 @@ body{
    
 }
 #contact{
+    text-transform: uppercase;
     scroll-margin-top: 15ex;
+    letter-spacing: 1px;
 }
 .form__content{
     padding: 15px 15px;
@@ -399,7 +405,7 @@ body{
     padding: 25px;
     box-shadow: 3px 0 5px rgba(0, 0, 0, 0.116);
     margin-top: auto;
-
+    background-color: #fff;
 }
 .derechos{
     margin-top: 10px;
@@ -489,6 +495,9 @@ body{
         font-size: 60px ;
     }
    
+    .projects h2{
+        font-size: 30px;
+    }
     .section1 h3{
         font-size: 25px;
     }
@@ -501,7 +510,23 @@ body{
     
 
     .section2{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        max-width: 1250px;
+        margin:  auto;
+        padding: 30px ;
+        gap: 20px;
         scroll-margin-top: 30ex ;
+    }
+    .card__container{
+    
+        width: auto;
+        height: 440px;
+        border-radius: 5px;
+        overflow: hidden;
+    
+        position: relative;
+       
     }
 
     #contact{

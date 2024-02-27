@@ -301,20 +301,32 @@ body{
     font-size: 30px;
 }
 .bxl-html5{
-    color: orangered;
-    border: orangered 2px solid;
+    color: #E44D26;
+    border: #E44D26 2px solid;
     background-color: transparent;
     border-radius: 2px;
 }
 .bxl-css3{
-    color: skyblue;
-    border: skyblue 2px solid;
+    color: #1572B6;
+    border: #1572B6 2px solid;
     background-color: transparent;
     border-radius: 2px;
 }
 .bxl-javascript{
-    color: yellow;
-    border: yellow 2px solid;
+    color: #F7DF1E;
+    border: #F7DF1E 2px solid;
+    background-color: transparent;
+    border-radius: 2px;
+}
+.bxl-react{
+    color: #61dafb;
+    border: #61dafb 2px solid;
+    background-color: transparent;
+    border-radius: 2px;
+}
+.bxl-nodejs{
+    color: #68A063;
+    border: #68A063 2px solid;
     background-color: transparent;
     border-radius: 2px;
 }

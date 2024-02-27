@@ -10,21 +10,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Bakbak One', cursive;
-
+    scrollbar-color: #5000CA #ebebeb;
 }
 body{
-    /* background-image:
-     url('./imgsP/pexels-joyston-judah-933054.jpg');
-     background-size: cover;
-     background-repeat: no-repeat;
-     height: 100vh; */
      background-color: #dfdfdf;
-     /* padding-top: 100px; */
-     
-     
-     
-     
-}
+    }
 .hero{
     background-size: cover;
     width: 100%;
@@ -296,6 +286,7 @@ body{
     font-size: 16;
     line-height: 25px;
     margin: 25px 0;
+    text-wrap: balance;
 }
 .content__icons{
     font-size: 30px;
@@ -367,7 +358,7 @@ body{
     align-items: center;
     justify-content: center;
     
-    padding: 150px 0px 150px 0px;
+    padding: 0px 0px 10px 0px; 
    
 }
 #contact{

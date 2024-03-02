@@ -1,5 +1,4 @@
 const section1 = document.getElementById('section1')
-const cards = document.getElementById('cards')
 
 const cargarCards = (entradas, observador) =>{
     // console.log('ENtro')

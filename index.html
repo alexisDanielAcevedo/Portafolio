@@ -16,6 +16,13 @@
 </head>
 <body>
 
+    <div class="containBtn">
+    <button class="darkMode" id="darkMode">
+        <i class='bx bxs-moon' ></i>
+        <i class='bx bxs-sun' ></i>
+    </button>
+    </div>
+
     <header class="hero" id="hero">
         <nav class="nav container" id="nav">
             <h2 class="nav_logo">A/A/<span>.DEV</span></h2>
@@ -40,7 +47,8 @@
     <section class="section1" id="section1">
             <h1 id="cards">Hola, soy Alexis<span>.</span></h1>  
             <h3 id="cards">Frontend Developer</h3>
-            <img src="./imgs/imgPrincipal.svg" alt="">
+            <img class="img" src="./imgs/imgPrincipal1.svg" alt="">
+            <img class="imgDark" src="./imgs/imgPrincipal2.svg" alt="">
     </section>
 
 
@@ -50,7 +58,7 @@
 
     <section class="section2" id="projects">
 
-        <div class="card__container">
+        <div class="card__container" id="cards">
             <img src="./imgs/cards/youtubeMP3.png" alt="">
             <div class="content">
                 <h3>Youtube a MP3</h3>
@@ -214,6 +222,7 @@
         </div>
     </footer>
 
+    <script src="./js/darkMode.js"></script>
     <script src="./js/index.js"></script>
  </body>
 </html>
